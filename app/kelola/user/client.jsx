@@ -34,7 +34,7 @@ async function getDetailUser(userId, token) {
 async function deleteUser(userId, token) {
   try {
     const get = await axios.delete(
-      `${NEXT_PUBLIC_API_RATIO}/admin/${userId}/users`,
+      `${NEXT_PUBLIC_API_RATIO}/admin/users/${userId}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
