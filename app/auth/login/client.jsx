@@ -31,13 +31,6 @@ export default function Client() {
       enterTo="opacity-100 translate-y-0"
     >
       <div className="w-full max-w-xl rounded-xl bg-white px-8 py-10 shadow-[0_0_0_7px_rgba(234,234,234,0.25)]">
-        <Image
-          src={"/logo.png"}
-          width={50}
-          height={50}
-          alt="logo"
-          className="mx-auto"
-        />
         <h1 className="mb-2 text-xl font-semibold">Login</h1>
         <p className="mb-6 text-slate-500">
           Kemudahan akses dan kontrol penuh. Masuk sebagai admin untuk mengatur
@@ -125,19 +118,7 @@ function Button(params) {
       aria-disabled={pending}
     >
       {pending ? (
-        <svg
-          className="mx-auto h-6 w-6 animate-spin"
-          viewBox="0 0 95 100"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M94.9998 50C94.9998 77.6142 72.6141 100 44.9998 100C26.4928 100 10.3342 89.945 1.68893 75H13.773C21.1036 84.1446 32.3679 90 44.9998 90C67.0912 90 84.9998 72.0914 84.9998 50C84.9998 27.9086 67.0912 10 44.9998 10C31.0357 10 18.7428 17.1556 11.5879 28H0.0874023C8.22622 11.4161 25.2798 0 44.9998 0C72.6141 0 94.9998 22.3858 94.9998 50Z"
-            fill="white"
-          />
-        </svg>
+        "loading"
       ) : (
         "Masuk "
       )}

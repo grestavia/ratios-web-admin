@@ -116,7 +116,7 @@ export default function Client({ data, token }) {
                     </TableCell>
                     <TableCell>
                       <div className="flex items-center gap-2">
-                        <Image
+                        <img
                           width={30}
                           height={30}
                           src={`${NEXT_PUBLIC_API_RATIO}/files/images/profiles/${item?.user.photoUrl}`}
@@ -172,7 +172,7 @@ export default function Client({ data, token }) {
           <div className="mb-2 flex gap-4">
             <div>
               <div className="relative aspect-square h-80 w-80 overflow-hidden rounded-xl border">
-                <Image
+                <img
                   src={`${NEXT_PUBLIC_API_RATIO}/files/images/photos/${detail?.data?.locationFile}`}
                   alt="image"
                   fill

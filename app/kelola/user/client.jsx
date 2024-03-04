@@ -55,7 +55,7 @@ export default function Client({ data, token }) {
   const [] = useState(data);
 
   useEffect(() => {
-    return () => {};
+    return () => { };
   }, []);
 
   return (
@@ -114,7 +114,7 @@ export default function Client({ data, token }) {
                     <TableCell>{++index}</TableCell>
                     <TableCell>
                       <div className="flex items-center gap-2">
-                        <Image
+                        <img
                           width={30}
                           height={30}
                           src={`${NEXT_PUBLIC_API_RATIO}/files/images/profiles/${item.photoUrl}`}
@@ -167,7 +167,7 @@ export default function Client({ data, token }) {
           </button>
           <h1 className="mb-5 text-xl font-semibold">Detail User</h1>
           <hr className="mb-2" />
-          <Image
+          <img
             src={`${NEXT_PUBLIC_API_RATIO}/files/images/profiles/${detail?.data?.photoUrl}`}
             alt="profile"
             width={100}

@@ -86,7 +86,7 @@ export default function Client({ data }) {
                   <TableCell>{++index}</TableCell>
                   <TableCell>
                     <div className="flex items-center gap-2">
-                      <Image
+                      <img
                         width={30}
                         height={30}
                         src={`${NEXT_PUBLIC_API_RATIO}/files/images/profiles/${item?.user?.photoUrl}`}
