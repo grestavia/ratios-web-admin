@@ -40,7 +40,7 @@ export default function SideNav() {
       enterFrom="opacity-0 -translate-x-6"
       enterTo="opacity-100 -translate--0"
     >
-      <nav className="h-screen w-full max-w-72 bg-white shadow-[-5px_0_50px_0_rgba(0,0,0,0.04)]">
+      <nav className="h-screen w-full max-w-72 border-r bg-white shadow-[-5px_0_50px_0_rgba(0,0,0,0.04)]">
         <div className="mx-2 my-2 mb-10 flex items-center gap-4 border-b px-2 py-4 text-primary">
           <Image
             src={"/logo.png"}

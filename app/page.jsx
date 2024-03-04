@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <MainLayout>
       <section className="w-full">
-        <header className="w-full px-4 py-2">
-          <div className="flex w-full justify-end rounded-lg border border-slate-200 bg-white px-4 py-2 shadow-sm">
+        <header className="mb-5 w-full">
+          <div className="flex w-full justify-end border-b border-slate-200 bg-white px-4 py-2 shadow-sm">
             <div className="flex h-full items-center gap-4">
               <Image
                 src={"/default-profile.jpg"}
                 alt="profile"
-                width={80}
-                height={80}
+                width={70}
+                height={70}
                 className="h-11 w-11 rounded-full"
               />
               <div>
@@ -25,7 +25,7 @@ export default function Home() {
         </header>
         <div className="px-4">
           <div className="w-full bg-white">
-            <h1 className="text-lg font-semibold">Dashboard</h1>
+            <h1 className="mb-2 text-2xl font-semibold">Dashboard</h1>
             <p className="mb-5 max-w-3xl text-sm text-slate-600">
               Kelola dan pantau semua aspek dengan mudah melalui Dashboard
               Ratio. Lihat statistik, laporan, dan kendalikan pengaturan utama
